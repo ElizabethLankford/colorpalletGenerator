@@ -1,0 +1,35 @@
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <div>
+                    <label for="color-picker">Pick a color:</label>
+                    <input type="color" id="color-picker"/>
+                </div>
+
+                <select class="btn" id="color-scheme">
+                    <option>Monochrome</option>
+                    <option>Monochrome-dark</option>
+                    <option>Monochrome-light</option>
+                    <option>Analogic</option>
+                    <option>Complement</option>
+                    <option>Analogic-complement</option>
+                    <option>Triad</option>
+                </select>
+                <button class="btn" id="get-btn">Get color scheme</button>
+            </div>
+
+            <div id="container">
+            </div>
+        
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
