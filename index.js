@@ -33,7 +33,9 @@ function renderColorHtml(){
                 let nameValue = color.name.value
 
                 html += `
+                <div class=pallet-container>
                 <div class="pallet" style="background-color:${hexValue}">
+                </div>
                 <div class="color-info">
                 <p class="hex">${hexValue}</p>
                 <p class="color-name">${nameValue}</p>
@@ -44,7 +46,4 @@ function renderColorHtml(){
             })
             container.innerHTML = html
         })
-       
-      
-       
  }
